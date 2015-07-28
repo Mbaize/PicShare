@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B1AEAE951B672B920006EB80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AEAE941B672B920006EB80 /* AppDelegate.swift */; };
+		B1AEAE971B672B920006EB80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AEAE961B672B920006EB80 /* ViewController.swift */; };
+		B1AEAE9A1B672B920006EB80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1AEAE981B672B920006EB80 /* Main.storyboard */; };
+		B1AEAE9D1B672B920006EB80 /* PicShare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B1AEAE9B1B672B920006EB80 /* PicShare.xcdatamodeld */; };
+		B1AEAE9F1B672B920006EB80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1AEAE9E1B672B920006EB80 /* Assets.xcassets */; };
+		B1AEAEA21B672B920006EB80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1AEAEA01B672B920006EB80 /* LaunchScreen.storyboard */; };
+		B1AEAEAD1B672B920006EB80 /* PicShareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1AEAEAC1B672B920006EB80 /* PicShareUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B1AEAEA91B672B920006EB80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B1AEAE891B672B920006EB80 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B1AEAE901B672B920006EB80;
+			remoteInfo = PicShare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B1AEAE911B672B920006EB80 /* PicShare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicShare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1AEAE941B672B920006EB80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B1AEAE961B672B920006EB80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B1AEAE991B672B920006EB80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B1AEAE9C1B672B920006EB80 /* PicShare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PicShare.xcdatamodel; sourceTree = "<group>"; };
+		B1AEAE9E1B672B920006EB80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B1AEAEA11B672B920006EB80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B1AEAEA31B672B920006EB80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1AEAEA81B672B920006EB80 /* PicShareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicShareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1AEAEAC1B672B920006EB80 /* PicShareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicShareUITests.swift; sourceTree = "<group>"; };
+		B1AEAEAE1B672B920006EB80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B1AEAE8E1B672B920006EB80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1AEAEA51B672B920006EB80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1AEAE881B672B920006EB80 = {
+			isa = PBXGroup;
+			children = (
+				B1AEAE931B672B920006EB80 /* PicShare */,
+				B1AEAEAB1B672B920006EB80 /* PicShareUITests */,
+				B1AEAE921B672B920006EB80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B1AEAE921B672B920006EB80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B1AEAE911B672B920006EB80 /* PicShare.app */,
+				B1AEAEA81B672B920006EB80 /* PicShareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B1AEAE931B672B920006EB80 /* PicShare */ = {
+			isa = PBXGroup;
+			children = (
+				B1AEAE941B672B920006EB80 /* AppDelegate.swift */,
+				B1AEAE961B672B920006EB80 /* ViewController.swift */,
+				B1AEAE981B672B920006EB80 /* Main.storyboard */,
+				B1AEAE9E1B672B920006EB80 /* Assets.xcassets */,
+				B1AEAEA01B672B920006EB80 /* LaunchScreen.storyboard */,
+				B1AEAEA31B672B920006EB80 /* Info.plist */,
+				B1AEAE9B1B672B920006EB80 /* PicShare.xcdatamodeld */,
+			);
+			path = PicShare;
+			sourceTree = "<group>";
+		};
+		B1AEAEAB1B672B920006EB80 /* PicShareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B1AEAEAC1B672B920006EB80 /* PicShareUITests.swift */,
+				B1AEAEAE1B672B920006EB80 /* Info.plist */,
+			);
+			path = PicShareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B1AEAE901B672B920006EB80 /* PicShare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1AEAEB11B672B920006EB80 /* Build configuration list for PBXNativeTarget "PicShare" */;
+			buildPhases = (
+				B1AEAE8D1B672B920006EB80 /* Sources */,
+				B1AEAE8E1B672B920006EB80 /* Frameworks */,
+				B1AEAE8F1B672B920006EB80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PicShare;
+			productName = PicShare;
+			productReference = B1AEAE911B672B920006EB80 /* PicShare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B1AEAEA71B672B920006EB80 /* PicShareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B1AEAEB41B672B920006EB80 /* Build configuration list for PBXNativeTarget "PicShareUITests" */;
+			buildPhases = (
+				B1AEAEA41B672B920006EB80 /* Sources */,
+				B1AEAEA51B672B920006EB80 /* Frameworks */,
+				B1AEAEA61B672B920006EB80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B1AEAEAA1B672B920006EB80 /* PBXTargetDependency */,
+			);
+			name = PicShareUITests;
+			productName = PicShareUITests;
+			productReference = B1AEAEA81B672B920006EB80 /* PicShareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B1AEAE891B672B920006EB80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Micah Baize";
+				TargetAttributes = {
+					B1AEAE901B672B920006EB80 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					B1AEAEA71B672B920006EB80 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = B1AEAE901B672B920006EB80;
+					};
+				};
+			};
+			buildConfigurationList = B1AEAE8C1B672B920006EB80 /* Build configuration list for PBXProject "PicShare" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B1AEAE881B672B920006EB80;
+			productRefGroup = B1AEAE921B672B920006EB80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B1AEAE901B672B920006EB80 /* PicShare */,
+				B1AEAEA71B672B920006EB80 /* PicShareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B1AEAE8F1B672B920006EB80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1AEAEA21B672B920006EB80 /* LaunchScreen.storyboard in Resources */,
+				B1AEAE9F1B672B920006EB80 /* Assets.xcassets in Resources */,
+				B1AEAE9A1B672B920006EB80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1AEAEA61B672B920006EB80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B1AEAE8D1B672B920006EB80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1AEAE971B672B920006EB80 /* ViewController.swift in Sources */,
+				B1AEAE951B672B920006EB80 /* AppDelegate.swift in Sources */,
+				B1AEAE9D1B672B920006EB80 /* PicShare.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B1AEAEA41B672B920006EB80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1AEAEAD1B672B920006EB80 /* PicShareUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B1AEAEAA1B672B920006EB80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B1AEAE901B672B920006EB80 /* PicShare */;
+			targetProxy = B1AEAEA91B672B920006EB80 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B1AEAE981B672B920006EB80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1AEAE991B672B920006EB80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B1AEAEA01B672B920006EB80 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B1AEAEA11B672B920006EB80 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B1AEAEAF1B672B920006EB80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B1AEAEB01B672B920006EB80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B1AEAEB21B672B920006EB80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PicShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mbaize.PicShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B1AEAEB31B672B920006EB80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PicShare/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mbaize.PicShare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B1AEAEB51B672B920006EB80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PicShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mbaize.PicShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PicShare;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B1AEAEB61B672B920006EB80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PicShareUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = mbaize.PicShareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PicShare;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B1AEAE8C1B672B920006EB80 /* Build configuration list for PBXProject "PicShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1AEAEAF1B672B920006EB80 /* Debug */,
+				B1AEAEB01B672B920006EB80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B1AEAEB11B672B920006EB80 /* Build configuration list for PBXNativeTarget "PicShare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1AEAEB21B672B920006EB80 /* Debug */,
+				B1AEAEB31B672B920006EB80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B1AEAEB41B672B920006EB80 /* Build configuration list for PBXNativeTarget "PicShareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B1AEAEB51B672B920006EB80 /* Debug */,
+				B1AEAEB61B672B920006EB80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B1AEAE9B1B672B920006EB80 /* PicShare.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B1AEAE9C1B672B920006EB80 /* PicShare.xcdatamodel */,
+			);
+			currentVersion = B1AEAE9C1B672B920006EB80 /* PicShare.xcdatamodel */;
+			path = PicShare.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B1AEAE891B672B920006EB80 /* Project object */;
+}
